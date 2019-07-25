@@ -900,13 +900,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@craco/craco@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-5.2.1.tgz#d0a8dd7f1eb1c55a7430a5f12534a4ccfbeb8cd0"
-  integrity sha512-NJfGDeDbDd7yzHvnnf1pTpHg661RtQsC4J5g1qs0lswV+DnVcwG4vrQFdnKm/DkWNzk7lJuG0AdadM2IKMtx+A==
+"@craco/craco@^5.2.4":
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-5.2.4.tgz#689201b4f1d4af0833e94edb12e7392f21ebe929"
+  integrity sha512-PStzEKDtmeueIhLti0X8VF3LymWi66X0N5g7XL4WV0X/D9eroKY7ar80950IzJWVKSU5mR/4JNDS5EKKw4SLPQ==
   dependencies:
     cross-spawn "^6.0.5"
-    lodash.mergewith "^4.6.1"
+    lodash.mergewith "^4.6.2"
     webpack-merge "^4.2.1"
 
 "@csstools/convert-colors@^1.4.0":
@@ -2351,10 +2351,10 @@ ccount@^1.0.3:
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.0.4.tgz#9cf2de494ca84060a2a8d2854edd6dfb0445f386"
   integrity sha512-fpZ81yYfzentuieinmGnphk0pLkOTMm6MZdVqwd77ROvhko6iujLNGrHH5E7utq3ygWklwfmwuG+A7P+NpqT6w==
 
-cesium@^1.58.1:
-  version "1.58.1"
-  resolved "https://registry.yarnpkg.com/cesium/-/cesium-1.58.1.tgz#bcd018463fea58dbfe8f0a66752b24f212ceb6f5"
-  integrity sha512-P15it6Cdvse/fkc2j9jnzjQa8jxoEqYPKNuXvwnqHFSjIda/9HzojWPVl3dTwr3HStJ8e11UXwjB2grHw3vGiQ==
+cesium@^1.59.0:
+  version "1.59.0"
+  resolved "https://registry.yarnpkg.com/cesium/-/cesium-1.59.0.tgz#69356323e0f850d94a1a3cee238dba37c5b317f0"
+  integrity sha512-pW1X3d7ZsL8X++M6V+wwVoL+OPMp66SlRWYIZaZHKPkubkbnTFFgQktyxW061Vp5T+hxGtzVtE7ALmmO+1MC/Q==
   dependencies:
     requirejs "^2.3.2"
 
@@ -2778,10 +2778,12 @@ craco-cesium@^1.1.1:
   optionalDependencies:
     strip-pragma-loader "*"
 
-craco-plugin-react-hot-reload@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/craco-plugin-react-hot-reload/-/craco-plugin-react-hot-reload-0.0.3.tgz#0b67aa3c5f4e46a6abc986ae11d38b1cf99b6303"
-  integrity sha512-6rsC+04q9dNBxW3q3b0e72IusuYpUMHg2TnzUFcGquiE8gmiKRej1gqGS15IfnN/iTlp+Avth2Clxc2zD+oy1Q==
+craco-plugin-react-hot-reload@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/craco-plugin-react-hot-reload/-/craco-plugin-react-hot-reload-0.1.0.tgz#f044daf0ce5993b65404e1504e62efa18ea7aca8"
+  integrity sha512-g211hDOwaZ4XAyKiGOSSAhyNw4eKzZYiCXXrr1iQd07bONV3o+ciD/wOZGpmkCaI+J4Hpv2yIQWlag/ds+SL6g==
+  dependencies:
+    "@craco/craco" "^5.2.4"
 
 create-ecdh@^4.0.0:
   version "4.0.3"
@@ -5929,10 +5931,10 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.mergewith@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
-  integrity sha512-eWw5r+PYICtEBgrBE5hhlT6aAa75f411bgDz/ZL2KZqYV03USvucsxcHUIlGTDTECs1eunpI7HOV7U+WLDvNdQ==
+lodash.mergewith@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
+  integrity sha512-GK3g5RPZWTRSeLSpgP8Xhra+pnjBC56q9FZYe1d5RN3TJ35dbkGy3YqBSMbyCrlbi+CM9Z3Jk5yTL7RCsqboyQ==
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
@@ -7976,19 +7978,18 @@ react-error-overlay@^5.1.6:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
   integrity sha512-X1Y+0jR47ImDVr54Ab6V9eGk0Hnu7fVWGeHQSOXHf/C2pF9c6uy3gef8QUeuUiWlNb0i08InPSE5a/KJzNzw1Q==
 
-react-hot-loader@^4.9.0:
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.9.0.tgz#498e5f76aae28bfd420efdabddf5af156745b4dd"
-  integrity sha512-1N6MWV9++qYWrrs41MRhxATwyx743tr8RpeyL1VOZ54zsU8fOx4slYreHZ8v2BDGVfy+dJ0myJZrJA9/26RlCA==
+react-hot-loader@^4.12.9:
+  version "4.12.9"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.9.tgz#cb2a85731ca38366b0e9e28e7fd1dbd7dcacc1ef"
+  integrity sha512-lWT3JpWUN7nGHSoI9c4MV+42ov79bd8aqwDzhoyKev3owIh+hbEivT6Mb81lCV6tWuqm9trKo2/Th2/YDhFCdw==
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
     hoist-non-react-statics "^3.3.0"
     loader-utils "^1.1.0"
-    lodash "^4.17.11"
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
-    shallowequal "^1.0.2"
+    shallowequal "^1.1.0"
     source-map "^0.7.3"
 
 react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
@@ -8343,10 +8344,10 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-resium@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/resium/-/resium-1.4.1.tgz#ebf13cc1ac10a8a03a415d59b2ffb79e4abae4cf"
-  integrity sha512-GZ5UX8jAA+8BFV6K3o0Mh1l0Z5x+8YoeC8ScLxmHv6p1aGzRCqsMY5mAFwu+n2k92Ufh+PKSgZHIN1cOJLTQ2g==
+resium@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/resium/-/resium-1.5.0.tgz#71dd3c86e8e4f9230313bc784b856891a961466a"
+  integrity sha512-WtIH6Fnz3Nh1WPzwIhP7XVa2NIZUaRgjj8+KG2tk0mfV9qtIUzNZSMZTxJVcDDC0gt2g3Oab0b5aCHG8ui2nlw==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -8662,7 +8663,7 @@ shallow-clone@^1.0.0:
     kind-of "^5.0.0"
     mixin-object "^2.0.1"
 
-shallowequal@^1.0.2:
+shallowequal@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
   integrity sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==

@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^5.2.1",
-    "cesium": "^1.58.1",
+    "@craco/craco": "^5.2.4",
+    "cesium": "^1.59.0",
     "craco-cesium": "^1.1.1",
-    "craco-plugin-react-hot-reload": "^0.0.3",
+    "craco-plugin-react-hot-reload": "^0.1.0",
     "react": "^16.8.6",
     "react-dom": "npm:@hot-loader/react-dom@^16.8.6",
-    "react-hot-loader": "^4.9.0",
+    "react-hot-loader": "^4.12.9",
     "react-scripts": "3.0.1",
-    "resium": "^1.4.1"
+    "resium": "^1.5.0"
   },
   "scripts": {
     "start": "craco start",
