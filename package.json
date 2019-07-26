@@ -11,7 +11,7 @@
     "react-dom": "npm:@hot-loader/react-dom@^16.8.6",
     "react-hot-loader": "^4.12.9",
     "react-scripts": "3.0.1",
-    "resium": "^1.5.0"
+    "resium": "^1.6.0"
   },
   "scripts": {
     "start": "craco start",

@@ -8321,10 +8321,10 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-resium@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/resium/-/resium-1.5.0.tgz#71dd3c86e8e4f9230313bc784b856891a961466a"
-  integrity sha512-WtIH6Fnz3Nh1WPzwIhP7XVa2NIZUaRgjj8+KG2tk0mfV9qtIUzNZSMZTxJVcDDC0gt2g3Oab0b5aCHG8ui2nlw==
+resium@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/resium/-/resium-1.6.0.tgz#6584c9bf2e04a7469c7cb01a6286057c7e129149"
+  integrity sha512-khMVLOAXGYGqjJ5iW1MuQfi8SFiiF/f/Tb7rwc510VrntdXH4ZLvGsglKnW+qRLEEOEG1dALwkMfKB0N1pWpFQ==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
