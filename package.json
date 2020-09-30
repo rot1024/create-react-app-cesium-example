@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^5.6.4",
-    "@hot-loader/react-dom": "^16.13.0",
-    "cesium": "^1.71.0",
+    "@craco/craco": "^5.7.0",
+    "@hot-loader/react-dom": "^17.0.0-rc.2",
+    "cesium": "^1.73.0",
     "craco-cesium": "^1.2.0",
     "craco-plugin-react-hot-reload": "^0.1.0",
     "react": "^16.13.1",
     "react-dom": "16.13.1",
-    "react-hot-loader": "^4.12.21",
-    "react-scripts": "3.4.1",
-    "resium": "^1.12.0"
+    "react-hot-loader": "^4.13.0",
+    "react-scripts": "3.4.3",
+    "resium": "^1.13.0"
   },
   "scripts": {
     "start": "craco start",
