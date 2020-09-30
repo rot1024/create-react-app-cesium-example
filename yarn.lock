@@ -9119,10 +9119,10 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-resium@^1.13.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/resium/-/resium-1.13.0.tgz#6abb5afe70bffce5a3c7ab1a1852d9c93a41b16a"
-  integrity sha512-va9ZklismHSKCoF/Sqx3+DPe5MZBqxKDIOB2uHtOpNS6wprUJtjT/82HBomJZ1xNJs/9t+UpL24XjIDPF7kSHg==
+resium@1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/resium/-/resium-1.13.1.tgz#355b4efbeaf0ad072fd0f0716659bec2d43541de"
+  integrity sha512-lcpiEvCmA/U64CZ0ybcJpBkFlOXylJBWmweDBPQRIjrUn3lH66ypJuJVJuwPeC0DBfbEuEBJB1tflXkLR+eYoQ==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
